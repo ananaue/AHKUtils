@@ -71,7 +71,7 @@ MButton::
 
 ; Toggle current window always-on-top
 ; Written by Ethan Malloy on Stack Overflow - https://stackoverflow.com/a/75881915
-^>Enter::
+>^Enter::
 {
     WinSetAlwaysOnTop -1, "A"
 }
